@@ -22,8 +22,12 @@ uv pip install -r requirements.txt
 
 模型需要预先下载到 Hugging Face 缓存：
 
+配置镜像站：
+
+export HF_ENDPOINT=https://hf-mirror.com
+
 ```bash
-huggingface-cli download mlx-community/Hy-MT2-1.8B
+hf download mlx-community/Hy-MT2-1.8B
 ```
 
 ## 启动
