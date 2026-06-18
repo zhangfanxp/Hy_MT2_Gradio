@@ -12,10 +12,10 @@
 
 ## 环境准备
 
-当前项目使用 uv 管理虚拟环境。首次使用时，在项目目录执行：
+当前项目使用 uv 管理虚拟环境,至少需要Python 3.10的版本。首次使用时，在项目目录执行：
 
 ```bash
-uv venv
+uv venv --python 3.10
 source .venv/bin/activate
 uv pip install -r requirements.txt
 ```
